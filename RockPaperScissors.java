@@ -44,7 +44,7 @@ public class RockPaperScissors {
             } else if (playerA.equals("R") && playerB.equals("P")) {
                 System.out.println("Paper covers Rock, Player B Wins!");
             }
-            System.out.println("Play Again?");
+            System.out.println("Play Again? [Y/N]");
             playAgain = in.next();
 
 
